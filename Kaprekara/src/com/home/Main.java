@@ -54,12 +54,12 @@ public class Main {
 
             Scanner in = new Scanner(System.in);
             //String s = in.nextLine();
-            System.out.print("Введите число: ");
+            System.out.print("Input 4 digits: ");
             int val = in.nextInt();
 /*
             Integer val2 = GetSortVal(val, "asc");
             Integer val3 = GetSortVal(val, "desc");*/
-            System.out.println("Итераций, чтобы посчитать постоянную Карприкара: " +CalcInvoiс(val, 0));
+            System.out.println("Iterations to calc Kaprekar's constant: " +CalcInvoiс(val, 0));
             //System.out.println(val + " ," + val2 + ", " + val3);
         } catch (Exception e) {
         }
