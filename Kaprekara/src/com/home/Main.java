@@ -37,30 +37,17 @@ public class Main {
         else {
             return  CalcInvoiс(DescVal - AscVal, i+=1);
         }
-
-        /*
-        if (KaprekarsConst == val)
-            return i;
-        else {
-
-            Integer AscVal = GetSortVal(val, "asc");
-            Integer DescVal = GetSortVal(val, "desc");
-            return  CalcInvoiс(DescVal - AscVal, i+=1);
-        }*/
     }
 
     public static void main(String[] args) {
         try {
 
             Scanner in = new Scanner(System.in);
-            //String s = in.nextLine();
             System.out.print("Input 4 digits: ");
             int val = in.nextInt();
-/*
-            Integer val2 = GetSortVal(val, "asc");
-            Integer val3 = GetSortVal(val, "desc");*/
+
             System.out.println("Iterations to calc Kaprekar's constant: " +CalcInvoiс(val, 0));
-            //System.out.println(val + " ," + val2 + ", " + val3);
+
         } catch (Exception e) {
         }
     }
